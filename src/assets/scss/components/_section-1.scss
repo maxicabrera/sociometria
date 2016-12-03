@@ -1,0 +1,122 @@
+.quienes-somos{
+	max-width: 600px;
+    margin: auto;
+	text-align: center;
+
+	h2,p{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 800px; 
+	}
+
+	p{
+		line-height: 1.8;
+		text-align: center;
+	}
+}
+
+.que-hacemos{
+	padding-bottom: 25px;
+
+
+	img{
+		@include breakpoint(large){
+			float: right;
+		}
+	}
+
+	.btn-wrapper{
+		text-align: center;
+	}
+}
+
+.mkt-digital{
+	margin: 75px auto;
+	padding: 50px;
+	width: 450px;
+	height: auto;
+	border: 1px solid $light-gray;
+
+	.btn-wrapper{
+		text-align: center;
+	}
+}
+
+.background-mkt-digital{
+	margin-top: 75px;
+	margin-bottom: 75px;
+	background-image: url(http://placehold.it/800x800);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.contacto{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 600px;
+
+	h4,h6{
+		text-align: center;
+	}
+
+	fieldset{
+		&.visible{
+			// visibility: visible;
+			display: block;
+		}
+		
+		position: relative;
+		display: none;
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		transition: $transition;
+
+		input{
+			font-family: $caviar;
+			border: 0px;
+			transition: $transition;
+
+			&.error{
+				box-shadow: 2px 3px 8px $red;
+			}
+		}
+
+		input + label{
+			max-width: 400px;
+			margin-top: -20px;
+			margin-left: 10px;
+			font-family: $caviar;
+			color: $blue;
+			transition: $transition;
+
+			&.active{
+				margin-top: 0px;
+				color: $white;
+			}
+		}
+	}
+
+	.saludo-final{
+		margin-top: 20px;
+		text-align: center;
+		opacity: 0;
+		transition: $transition;
+
+		&.visible{
+			opacity: 1;
+		}
+	}
+}
+
+.background-contacto{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: $blue;
+
+	& > * {
+		color: $white;
+	}
+}

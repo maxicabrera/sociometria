@@ -1,0 +1,38 @@
+.background-header{
+	background-image: url(../img/pexels-photo-196649.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.slider-header{
+	width: 100%;
+	padding-bottom: 60px;
+	
+	.sticky{
+		position: static;
+		margin: 25px auto 0px auto;
+		text-align: center;
+
+		.logo{
+			max-width: 400px;
+			border-radius: 90%;
+			border: 1px solid $light-gray;
+		}	
+	}
+
+	.slider-item{
+		margin-top: 60px;
+		padding: 60px 50px 20px 50px;
+		color: $white;
+		
+
+		h4, p, a.button{
+			max-width: 200px;
+
+			@include breakpoint(large){
+				max-width: 400px;				
+			}
+		}
+	}
+}

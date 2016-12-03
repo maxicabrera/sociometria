@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'CaviarDreams';
+  src:  url('../fonts/CaviarDreams/CaviarDreams.eot?#iefix') format('embedded-opentype'),
+  		url('../fonts/CaviarDreams/CaviarDreams.woff') format('woff'),
+  		url('../fonts/CaviarDreams/CaviarDreams.ttf')  format('truetype'),
+  		url('../fonts/CaviarDreams/CaviarDreams.svg')  format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather-black';
+  src:  url('../fonts/Merriweather/Merriweather-Black.eot?#iefix') format('embedded-opentype'),
+  		url('../fonts/Merriweather/Merriweather-Black.woff') format('woff'),
+  		url('../fonts/Merriweather/Merriweather-Black.ttf')  format('truetype'),
+  		url('../fonts/Merriweather/Merriweather-Black.svg')  format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather-bold';
+  src:  url('../fonts/Merriweather/Merriweather-bold.eot?#iefix') format('embedded-opentype'),
+  		url('../fonts/Merriweather/Merriweather-bold.woff') format('woff'),
+  		url('../fonts/Merriweather/Merriweather-bold.ttf')  format('truetype'),
+  		url('../fonts/Merriweather/Merriweather-bold.svg')  format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src:  url('../fonts/Merriweather/Merriweather-Regular.eot?#iefix') format('embedded-opentype'),
+  		url('../fonts/Merriweather/Merriweather-Regular.woff') format('woff'),
+  		url('../fonts/Merriweather/Merriweather-Regular.ttf')  format('truetype'),
+  		url('../fonts/Merriweather/Merriweather-Regular.svg')  format('svg');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+$merri-black: 'Merriweather-black', arial, serif;
+$merri-bold: 'Merriweather-bold', arial, serif;
+$merri: 'Merriweather', arial, serif;
+$caviar: 'CaviarDreams', arial, sans-serif;
